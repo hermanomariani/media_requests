@@ -30,7 +30,8 @@ const router = createBrowserRouter([
   }*/,
   {
     path: "/",
-    element: <LP/>
+    element: <LP/>,
+    basename:"/media-requests"
   }
 
 ])
