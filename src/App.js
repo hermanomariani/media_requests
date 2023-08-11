@@ -17,8 +17,8 @@ import LP from './Routes/LP';
 //import { getProduct, getProductList } from './Helpers/Fetch';
 import GTM from "./Assets/GTM";
 
-const router = createBrowserRouter([
-  /*{
+/*{
+    const router = createBrowserRouter([
     path: "/",
     element: <Home/>,
     loader: getProductList
@@ -27,19 +27,21 @@ const router = createBrowserRouter([
     path: "/products/:id",
     element: <ProductPage/>,
     loader: getProduct
-  }*/,
-  {
+  },
+    { 
     path: "/",
-    element: <LP/>,
-    basename:"/media-requests"
+    element: <LP/>
   }
+], {basename:"/media-requests"})
+  */
 
-])
+
 
 function App() {
   return  (<>
   <GTM/>
-  <RouterProvider router={router}/>
+ {/*<RouterProvider router={router}/>*/}
+ <LP/>
   </>)
 }
 
