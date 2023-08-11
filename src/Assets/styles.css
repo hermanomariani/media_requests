@@ -1,0 +1,175 @@
+/* Global Styles */
+body {
+    background-color: #e2f4ec; /* Main Page Background */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    padding: 40px;
+    background-color: #ffb370d6; /* White */
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #333333; /* Dark Text */
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+    color: #333333; /* Dark Text */
+}
+
+/* Product Info Styles */
+.product-info {
+    text-align: center;
+    padding: 40px;
+}
+
+.product-info img {
+    max-width: 40%;
+    max-height: 250px;
+    border: none /* Image Border */;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+}
+
+.product-info p {
+    font-size: 16px;
+    color: #000000; /* Dark Text */
+}
+
+/* Purchase Section Styles */
+.purchase-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #ffb370d6; /* White */
+}
+
+.purchase-section h2 {
+    font-size: 28px;
+    color: #333333; /* Dark Text */
+    margin-bottom: 10px;
+}
+
+.purchase-section p {
+    font-size: 18px;
+    color: #333333; /* Dark Text */
+}
+
+.purchase-button {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #c5eff3; /* Vibrant Accent Color */
+    color: #280b0b; /* Light Text */
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+}
+
+.purchase-button:hover {
+    background-color: #413d44;
+    transform: scale(1.1);
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Divider Styles */
+.divider {
+    border: 1px solid #dddddd; /* Divider Line Color */
+    margin: 20px 0;
+}
+
+/* Button Group Styles */
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.custom-button {
+    padding: 12px 24px;
+    font-size: 14px;
+    background-color: #ff6b6b; /* Vibrant Accent Color */
+    color: #ffffff; /* Light Text */
+    border: none;
+    border-radius: 30px;
+    margin: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.custom-button:hover {
+    background-color: #ff4757;
+    transform: scale(1.05);
+}
+
+/* Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #fcffe3; /* Modal Background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    max-width: 80%;
+    border: none;
+    position: relative;
+}
+
+.modal-title {
+    font-size: 24px;
+    color: #332f2f; /* White */
+    margin-bottom: 10px;
+}
+
+.modal-text {
+    font-size: 18px;
+    color: #332f2f; /* White */
+    margin-bottom: 15px;
+}
+
+.modal-button {
+    font-size: 18px;
+    font-weight: bold;
+    color: #332f2f; 
+    margin-bottom: 15px;
+    padding: 12px 24px;
+    background-color: #737d38; 
+    color: #eeeeee; 
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    color: #ffffff; /* White */
+    cursor: pointer;
+}
