@@ -9,10 +9,10 @@ export default function Modal (props) {
             "Meta":'https://developers.facebook.com/docs/meta-pixel/implementation/conversion-tracking#standard-events',
             "DV360 - Contador": "https://support.google.com/searchads/answer/7551951?hl=en",
             "DV360 - Conversão": "https://support.google.com/searchads/answer/7551951?hl=en",
-            "Microsoft Ads (Bing)": "http://www.example.com",
-            "TikTok": "http://www.example.com",
-            "Criteo": "http://www.example.com",
-            "Awin": "http://www.example.com",
+            "Microsoft Ads (Bing)": "https://help.ads.microsoft.com/#apex/ads/en/56684/2",
+            "TikTok": "https://ads.tiktok.com/help/article/standard-events-parameters?lang=en",
+            "Criteo": "https://help.criteo.com/kb/guide/en/all-criteo-onetag-events-and-parameters-vZbzbEeY86/Steps/775825",
+            "Awin": "https://wiki.awin.com/index.php/GTM_UnconditionalFiring_PT",
             "Afilio": "http://www.example.com" 
     }
 
@@ -23,10 +23,10 @@ export default function Modal (props) {
         "Meta":'<Pixel ID> ou /facebook.*id/',
         "DV360 - Contador": "<ID da Conta>",
         "DV360 - Conversão": "<ID da Conta>",
-        "Microsoft Ads (Bing)": "http://www.example.com",
-        "TikTok": "http://www.example.com",
-        "Criteo": "http://www.example.com",
-        "Awin": "http://www.example.com",
+        "Microsoft Ads (Bing)": "<Id da Conta> ou /bing.*action/",
+        "TikTok": "/tiktok/",
+        "Criteo": "<ID da Conta> ou /criteo.*event/",
+        "Awin": "<ID da conta> ou /sread/",
         "Afilio": "http://www.example.com" 
 }
 
